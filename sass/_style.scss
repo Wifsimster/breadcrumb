@@ -1,0 +1,36 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  display: block;
+  font-weight: 300;
+  line-height: 22px;
+}
+body {
+  font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #fff;
+  background: #448ee1;
+}
+h1, h2 {
+  margin: 25px 0;
+  padding: 0;
+}
+h1 {
+  font-size: 42px;
+}
+h2 {
+  font-size: 30px;
+}
+div {
+  display: block;
+}
+section {
+  max-width: 1200px;
+  width: 90%;
+  padding-top: 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+a {
+  cursor: pointer;
+}

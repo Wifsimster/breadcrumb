@@ -1,2 +1,1 @@
-# breadcrumb
-Responsive Breadcrumb
+# Responsive jQuery Breadcrumb

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Breadcrumb</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link type="text/css" rel="stylesheet" href="css/breadcrumb.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="js/breadcrumb.js"></script>
+  </head>
+  <body>
+    <section>
+      <h1>Responsive Breadcrumb</h1>
+      <div>
+        <div class="breadcrumb-container">
+          <span class="breadcrumb">
+            <a>Premier</a>
+          </span>
+          <span class="breadcrumb">
+            <a>Deuxième</a>
+          </span>
+          <span class="breadcrumb">
+            <a>Troisième</a>
+          </span>
+          <span class="breadcrumb">
+            <a>Quatrième</a>
+          </span>
+          <span class="breadcrumb">
+            <a>Cinquième</a>
+          </span>
+          <span class="breadcrumb">
+            <a>Page courante</a>
+          </span>
+        </div>
+      </div>
+
+    </section>
+
+    <script>
+      $(document).ready(function(){
+        $('.breadcrumb-container').breadcrumb();
+      });
+    </script>
+  </body>
+</html>
