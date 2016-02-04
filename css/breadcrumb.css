@@ -1,0 +1,66 @@
+.breadcrumb-container {
+  margin: 0 10px;
+  padding: 0;
+  position: relative; }
+  .breadcrumb-container > .breadcrumb:before {
+    vertical-align: middle;
+    content: '>';
+    margin: 0 10px; }
+  .breadcrumb-container > .breadcrumb:first-child:before {
+    content: none; }
+  .breadcrumb-container > .breadcrumb:last-child {
+    display: inline-block;
+    font-weight: bold; }
+    .breadcrumb-container > .breadcrumb:last-child > a {
+      cursor: default; }
+      .breadcrumb-container > .breadcrumb:last-child > a:hover {
+        background: inherit; }
+  .breadcrumb-container > .breadcrumb a {
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 15px; }
+    .breadcrumb-container > .breadcrumb a:hover {
+      background: #4289D8; }
+  .breadcrumb-container > .dropdown {
+    position: relative;
+    display: inline-block;
+    overflow: visible;
+    height: 100%; }
+    .breadcrumb-container > .dropdown > a {
+      cursor: pointer; }
+      .breadcrumb-container > .dropdown > a:before {
+        content: '...';
+        font-size: 26px;
+        padding: 10px; }
+    .breadcrumb-container > .dropdown:hover {
+      background-color: #2a6496; }
+      .breadcrumb-container > .dropdown:hover > .dropdown-container {
+        display: block; }
+    .breadcrumb-container > .dropdown > .dropdown-container {
+      position: absolute;
+      display: none;
+      background: #4289D8;
+      padding: 15px 10px;
+      z-index: 40; }
+      .breadcrumb-container > .dropdown > .dropdown-container:after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 10px;
+        top: 0;
+        border-top: 10px solid #2a6496;
+        border-left: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right: 10px solid transparent; }
+      .breadcrumb-container > .dropdown > .dropdown-container > span {
+        text-align: left; }
+        .breadcrumb-container > .dropdown > .dropdown-container > span a {
+          text-transform: uppercase;
+          float: left;
+          padding: 5px 10px;
+          font-size: 14px; }
+          .breadcrumb-container > .dropdown > .dropdown-container > span a:hover {
+            opacity: .8; }
+
+/*# sourceMappingURL=breadcrumb.css.map */
